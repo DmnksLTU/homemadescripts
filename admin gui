@@ -1,0 +1,60 @@
+local InsertedObjects = Instance.new("ScreenGui")
+local TextLabel = Instance.new("TextLabel")
+local Frame = Instance.new("ImageLabel")
+local Pattern = Instance.new("ImageLabel")
+local warning = Instance.new("ImageButton")
+
+--Properties:
+
+InsertedObjects.Name = "InsertedObjects"
+InsertedObjects.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+InsertedObjects.ResetOnSpawn = false
+
+TextLabel.Parent = InsertedObjects
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.842772007, 0, 0.0319865495, 0)
+TextLabel.Size = UDim2.new(0, 200, 0, 50)
+TextLabel.ZIndex = 5
+TextLabel.Font = Enum.Font.FredokaOne
+TextLabel.Text = "Admin"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 48.000
+
+Frame.Name = "Frame"
+Frame.Parent = InsertedObjects
+Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame.BackgroundTransparency = 1.000
+Frame.Position = UDim2.new(0.823397934, 0, 0.0269360393, 0)
+Frame.Size = UDim2.new(0, 209, 0, 56)
+Frame.Image = "rbxassetid://3570695787"
+Frame.ImageColor3 = Color3.fromRGB(244, 95, 95)
+Frame.ScaleType = Enum.ScaleType.Slice
+Frame.SliceCenter = Rect.new(100, 100, 100, 100)
+Frame.SliceScale = 0.120
+
+Pattern.Name = "Pattern"
+Pattern.Parent = Frame
+Pattern.AnchorPoint = Vector2.new(0.5, 0.5)
+Pattern.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Pattern.BackgroundTransparency = 1.000
+Pattern.Position = UDim2.new(0.501644731, 0, 0.5, 0)
+Pattern.Size = UDim2.new(0, 208, 0, 56)
+Pattern.ZIndex = 9
+Pattern.Image = "rbxassetid://2151781969"
+Pattern.ImageTransparency = 0.950
+Pattern.ScaleType = Enum.ScaleType.Tile
+Pattern.SliceCenter = Rect.new(0, 256, 0, 256)
+Pattern.SliceScale = 1.100
+Pattern.TileSize = UDim2.new(0, 105, 0, 110)
+
+warning.Name = "warning"
+warning.Parent = InsertedObjects
+warning.BackgroundTransparency = 1.000
+warning.Position = UDim2.new(0.830104351, 0, 0.0370370448, 0)
+warning.Size = UDim2.new(0, 44, 0, 44)
+warning.ZIndex = 2
+warning.Image = "rbxassetid://3926305904"
+warning.ImageRectOffset = Vector2.new(364, 324)
+warning.ImageRectSize = Vector2.new(36, 36)
