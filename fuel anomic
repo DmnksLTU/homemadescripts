@@ -1,0 +1,153 @@
+function hypercar()
+    local args = {[1] = workspace.PlayerVehicles["Hypercar"],[2] = 80}
+         game:GetService("ReplicatedStorage")["_CS.Events"].FillUpCar:FireServer(unpack(args))
+end
+
+function sedan()
+     local args = {[1] = workspace.PlayerVehicles["Sedan"],[2] = 80}
+         game:GetService("ReplicatedStorage")["_CS.Events"].FillUpCar:FireServer(unpack(args))
+end
+function sheriffcruiser()
+    local args = {[1] = workspace.PlayerVehicles["Sheriff Cruiser"],[2] = 80}
+         game:GetService("ReplicatedStorage")["_CS.Events"].FillUpCar:FireServer(unpack(args))
+end
+function Hatchback()
+    local args = {[1] = workspace.PlayerVehicles["Hatchback"],[2] = 80}
+         game:GetService("ReplicatedStorage")["_CS.Events"].FillUpCar:FireServer(unpack(args))
+end
+function Sedan()
+    local args = {[1] = workspace.PlayerVehicles["Sedan"],[2] = 80}
+         game:GetService("ReplicatedStorage")["_CS.Events"].FillUpCar:FireServer(unpack(args))
+end
+function Van()
+    local args = {[1] = workspace.PlayerVehicles["Van"],[2] = 80}
+         game:GetService("ReplicatedStorage")["_CS.Events"].FillUpCar:FireServer(unpack(args))
+end
+function StationWagon()
+    local args = {[1] = workspace.PlayerVehicles["Station Wagon"],[2] = 80}
+         game:GetService("ReplicatedStorage")["_CS.Events"].FillUpCar:FireServer(unpack(args))
+end
+function Coupe()
+    local args = {[1] = workspace.PlayerVehicles["Coupe"],[2] = 80}
+         game:GetService("ReplicatedStorage")["_CS.Events"].FillUpCar:FireServer(unpack(args))
+end
+function Convertible()
+    local args = {[1] = workspace.PlayerVehicles["Convertible"],[2] = 80}
+         game:GetService("ReplicatedStorage")["_CS.Events"].FillUpCar:FireServer(unpack(args))
+end
+function SportsCar()
+    local args = {[1] = workspace.PlayerVehicles["Sports Car"],[2] = 80}
+         game:GetService("ReplicatedStorage")["_CS.Events"].FillUpCar:FireServer(unpack(args))
+end
+function SUV()
+    local args = {[1] = workspace.PlayerVehicles["SUV"],[2] = 80}
+         game:GetService("ReplicatedStorage")["_CS.Events"].FillUpCar:FireServer(unpack(args))
+end
+function LuxurySUV()
+    local args = {[1] = workspace.PlayerVehicles["Luxury SUV"],[2] = 80}
+         game:GetService("ReplicatedStorage")["_CS.Events"].FillUpCar:FireServer(unpack(args))
+end
+function RV()
+    local args = {[1] = workspace.PlayerVehicles["RV"],[2] = 80}
+         game:GetService("ReplicatedStorage")["_CS.Events"].FillUpCar:FireServer(unpack(args))
+end
+function LuxuryCar()
+    local args = {[1] = workspace.PlayerVehicles["Luxury Car"],[2] = 80}
+         game:GetService("ReplicatedStorage")["_CS.Events"].FillUpCar:FireServer(unpack(args))
+end
+function MuscleCar()
+    local args = {[1] = workspace.PlayerVehicles["Muscle Car"],[2] = 80}
+         game:GetService("ReplicatedStorage")["_CS.Events"].FillUpCar:FireServer(unpack(args))
+end
+function SuperCar()
+    local args = {[1] = workspace.PlayerVehicles["Super Car"],[2] = 80}
+         game:GetService("ReplicatedStorage")["_CS.Events"].FillUpCar:FireServer(unpack(args))
+end
+function Pickup()
+    local args = {[1] = workspace.PlayerVehicles["Pickup"],[2] = 80}
+         game:GetService("ReplicatedStorage")["_CS.Events"].FillUpCar:FireServer(unpack(args))
+end
+function TeamPickup()
+    local args = {[1] = workspace.PlayerVehicles["Team Pickup"],[2] = 80}
+         game:GetService("ReplicatedStorage")["_CS.Events"].FillUpCar:FireServer(unpack(args))
+end
+function sedan2()
+    local args = {[1] = workspace.PlayerVehicles["Sedan (Facelift)"],[2] = 80}
+         game:GetService("ReplicatedStorage")["_CS.Events"].FillUpCar:FireServer(unpack(args))
+end
+function Hypercar()
+    local args = {[1] = workspace.PlayerVehicles["Hypercar"],[2] = 80}
+         game:GetService("ReplicatedStorage")["_CS.Events"].FillUpCar:FireServer(unpack(args))
+end
+function Lowrider()
+    local args = {[1] = workspace.PlayerVehicles["Lowrider"],[2] = 80}
+         game:GetService("ReplicatedStorage")["_CS.Events"].FillUpCar:FireServer(unpack(args))
+end
+function TaxiCab()
+    local args = {[1] = workspace.PlayerVehicles["Taxi Cab"],[2] = 80}
+         game:GetService("ReplicatedStorage")["_CS.Events"].FillUpCar:FireServer(unpack(args))
+end
+function Bus()
+    local args = {[1] = workspace.PlayerVehicles["Bus"],[2] = 80}
+         game:GetService("ReplicatedStorage")["_CS.Events"].FillUpCar:FireServer(unpack(args))
+end
+function Ambulance()
+    local args = {[1] = workspace.PlayerVehicles["Ambulance"],[2] = 80}
+         game:GetService("ReplicatedStorage")["_CS.Events"].FillUpCar:FireServer(unpack(args))
+end
+function MoneyTruck()
+    local args = {[1] = workspace.PlayerVehicles["Money Truck"],[2] = 80}
+         game:GetService("ReplicatedStorage")["_CS.Events"].FillUpCar:FireServer(unpack(args))
+end
+function SheriffSUV()
+    local args = {[1] = workspace.PlayerVehicles["Sheriff SUV"],[2] = 80}
+         game:GetService("ReplicatedStorage")["_CS.Events"].FillUpCar:FireServer(unpack(args))
+end
+function PoliceTransporter()
+    local args = {[1] = workspace.PlayerVehicles["Police Transporter"],[2] = 80}
+         game:GetService("ReplicatedStorage")["_CS.Events"].FillUpCar:FireServer(unpack(args))
+end
+function SWATVan()
+    local args = {[1] = workspace.PlayerVehicles["SWAT Van"],[2] = 80}
+         game:GetService("ReplicatedStorage")["_CS.Events"].FillUpCar:FireServer(unpack(args))
+end
+function USSSCruiser()
+    local args = {[1] = workspace.PlayerVehicles["USSS Cruiser"],[2] = 80}
+         game:GetService("ReplicatedStorage")["_CS.Events"].FillUpCar:FireServer(unpack(args))
+end
+function USSSSUV()
+    local args = {[1] = workspace.PlayerVehicles["USSS SUV"],[2] = 80}
+         game:GetService("ReplicatedStorage")["_CS.Events"].FillUpCar:FireServer(unpack(args))
+end
+function SUVDune()
+    local args = {[1] = workspace.PlayerVehicles["SUV (Dune)"],[2] = 80}
+         game:GetService("ReplicatedStorage")["_CS.Events"].FillUpCar:FireServer(unpack(args))
+end
+function Humvee()
+    local args = {[1] = workspace.PlayerVehicles["Humvee"],[2] = 80}
+         game:GetService("ReplicatedStorage")["_CS.Events"].FillUpCar:FireServer(unpack(args))
+end
+function Limousine()
+    local args = {[1] = workspace.PlayerVehicles["Limousine"],[2] = 80}
+         game:GetService("ReplicatedStorage")["_CS.Events"].FillUpCar:FireServer(unpack(args))
+end
+function TowTruck()
+    local args = {[1] = workspace.PlayerVehicles["Tow Truck"],[2] = 80}
+         game:GetService("ReplicatedStorage")["_CS.Events"].FillUpCar:FireServer(unpack(args))
+end
+function CommercialTruck()
+    local args = {[1] = workspace.PlayerVehicles["Commercial Truck"],[2] = 80}
+         game:GetService("ReplicatedStorage")["_CS.Events"].FillUpCar:FireServer(unpack(args))
+end
+function FlatnoseTruck()
+    local args = {[1] = workspace.PlayerVehicles["Flatnose Truck"],[2] = 80}
+         game:GetService("ReplicatedStorage")["_CS.Events"].FillUpCar:FireServer(unpack(args))
+end
+function SemiTruckSleeper()
+    local args = {[1] = workspace.PlayerVehicles["Semi Truck (Sleeper)"],[2] = 80}
+         game:GetService("ReplicatedStorage")["_CS.Events"].FillUpCar:FireServer(unpack(args))
+end
+function SemiTruck()
+    local args = {[1] = workspace.PlayerVehicles["Semi Truck"],[2] = 80}
+         game:GetService("ReplicatedStorage")["_CS.Events"].FillUpCar:FireServer(unpack(args))
+end
